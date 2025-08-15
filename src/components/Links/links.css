@@ -1,0 +1,43 @@
+/* Container */
+#connect {
+  text-align: center;
+  padding: 20px;
+  background-color:rgb(30,30,30);
+}
+
+/* Headings */
+.connecthead {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+/* Paragraph */
+.connectpara {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  color:white;
+}
+
+/* Social links container */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  color:white;
+}
+
+/* Icon styles */
+.social-links a {
+  display: inline-block;
+  font-size: 2rem; /* Icon size */
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+  color: #0077b5; /* Default LinkedIn blue — change per icon */
+}

@@ -1,0 +1,208 @@
+/* ---------- MAIN SECTION ---------- */
+#intro {
+  width: 100vw;
+  height: calc(100vh - 7rem);
+  max-width: 75rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+/* ---------- BACKGROUND IMAGE ---------- */
+.bg {
+  height: 90%;
+  max-width: 40vw;
+  position: absolute;
+  right: 2rem;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.95;
+}
+
+/* ---------- TEXT BLOCK ---------- */
+.intro-text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.1;
+  display: inline; /* same line */
+}
+.introcontenttextim {
+  font-size: 2.5rem;
+  font-weight: 750;
+  margin-top: 0; 
+  display: inline; 
+  margin-left: 0.5rem; 
+}
+.introcontenttextpragati {
+  color: yellow;
+}
+
+.para {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 2.5rem 0; 
+}
+
+.btn {
+  background-color: white;
+  width: 8rem;
+  height: 2.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.hiremeimg {
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 10px;
+}
+
+.hireme-wrapper {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 15px; /* more padding */
+  font-size: 16px; /* bigger text */
+  
+  background-color: #fff;
+  color: #000;
+
+  
+  width: 300px; /* wider */
+  cursor: pointer;
+
+   border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 700;
+
+
+  text-align: center;
+
+  transition: 0.3s;
+  margin-top:2rem;
+  
+}
+
+.pdf:hover 
+{
+ background-color: #c0acacff;
+}
+ 
+
+
+
+.navbarcontactimg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0; /* stops icon from shrinking */
+  /* padding-right:20px; */
+}
+
+.btn:hover {
+    background-color: #b19b9bff;
+    color: black;
+
+}
+/* ---------- RESPONSIVE ---------- */
+@media screen and (max-width: 840px) {
+  #intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 1rem 2rem;
+    text-align: center;
+    height: auto;
+  }
+
+  .bg {
+    position: absolute;
+    top: 2px;
+    left: 10;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+    max-width: none;
+  }
+
+  .intro-text {
+    width: 100%;
+    padding: 0 1rem;
+    z-index: 2;
+    align-items: center;
+  }
+
+  .hello {
+    font-size: 6vw;
+    margin-bottom: 0.5rem;
+    margin-top: 8rem;
+    line-height:0.1;
+    
+  }
+
+  .introcontenttextim {
+    font-size: 8vw;
+    font-weight: 700;
+    margin: 0.5rem 0;
+  }
+
+  .para {
+    font-size: 4vw;
+    max-width: 90%;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+
+  .hireme-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+    
+  .pdf {
+    width: 100%;
+    max-width: 250px; /* same approach as .btn */
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+}
+
+  

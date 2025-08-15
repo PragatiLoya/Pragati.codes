@@ -1,0 +1,148 @@
+#contact
+{
+  
+  padding: 2rem 1rem;
+  font-family:'poppins','sans-serif';
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  width:100vw;
+  max-width:65rem;
+ margin:0 auto;
+     font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+
+}
+
+.contactdeetsname
+{
+    
+margin:10px;
+padding:10px;
+height:50px;
+width:515px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+color:rgb(223, 212, 212);
+
+}
+
+.contactdeetsemail
+{
+    
+margin:10px;
+padding:10px;
+height:50px;
+width:515px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+color:rgb(223, 212, 212);
+}
+
+.contactdeetsmsg
+{
+    
+margin:10px;
+padding:10px;
+height:150px;
+width:515px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+
+color:rgb(223, 212, 212);
+}
+
+
+.contactheading
+{text-align: center; 
+    font-size:2rem;
+    font-weight:600;
+    margin:10px;
+    color:white;
+
+}
+
+.contactdesc
+{text-align: center; 
+    font-size:1rem;
+    font-weight:300;
+    margin:10px;
+    color:white;
+}
+
+  .navbarcontact {
+   
+
+    display: block;
+  margin: 20px auto; 
+  padding: 12px 12px;
+  width: 100%; /* match input width */
+  max-width: 300px; /* optional: keep it reasonable */
+  background-color: white; /* your color */
+  color: black;
+  border: none;
+  border-radius: 8px; /* matches text input corners */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align:center;
+  }
+
+.navbarcontact:hover {
+  background-color: #b19b9bff;
+  color:black;
+}
+
+@media screen and (max-width:720px)
+{
+
+
+    
+.contactdeetsname
+{
+    
+margin:10px;
+padding:10px;
+height:50px;
+width:275px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+color:rgb(223, 212, 212);
+
+}
+
+.contactdeetsemail
+{
+    
+margin:10px;
+padding:10px;
+height:50px;
+width:275px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+color:rgb(223, 212, 212);
+}
+
+.contactdeetsmsg
+{
+    
+margin:10px;
+padding:10px;
+height:150px;
+width:275px;
+background-color:rgb(43, 42, 42);
+border-bottom:1px solid rgb(223, 212, 212);
+border-radius:7px;
+
+color:rgb(223, 212, 212);
+}
+
+
+
+}
