@@ -29,7 +29,7 @@ const Intro = () => {
 
         <button 
           className='pdf' 
-          onClick={() => window.open('/PragatiLoya_Resume.pdf', '_blank')}
+          onClick={() => window.open('/PragatiLoya_64043_ISE_Resume1.pdf', '_blank')}
         >
           <img src={contact} alt="contact" className='navbarcontactimg1' />
           Download Resume
