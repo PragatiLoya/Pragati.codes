@@ -31,7 +31,7 @@ const Intro = () => {
           className='pdf' 
           onClick={() => window.open('/PragatiLoya_Resume.pdf', '_blank')}
         >
-          <img src={contact} alt="contact" className='navbarcontactimg' />
+          <img src={contact} alt="contact" className='navbarcontactimg1' />
           Download Resume
         </button>
 
